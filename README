@@ -1,0 +1,17 @@
+Welcome to the second part of this JavaFX Tutorial.
+
+In the first part we add what to do when a button was clicked
+programmaitically, but now we want to link the method which
+should be invoked, when the button is clicked in our
+design phase in scene builder.
+
+We write a new method in our MainController.
+
+
+Okay, this is the second method i spoke in the first video..
+
+So this should be all for now and today, i hope it will help someone.
+
+Subscribe my Channel for more Java, JavaEE, JavaFX Videos ...
+
+Code will be on GitHub soon, contact me for questions.

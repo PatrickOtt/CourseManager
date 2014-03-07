@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="de.professional_webworkx.blog.coursemanager.controller.MainController">
+  <children>
+    <Pane prefHeight="768.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <ListView fx:id="courseList" layoutX="216.0" layoutY="324.0" prefHeight="430.0" prefWidth="794.0" />
+        <MenuBar layoutX="0.0" layoutY="2.0" prefWidth="1023.9999755859375">
+          <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Close" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Delete" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" text="About" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+        <Label layoutX="216.0" layoutY="60.0" text="Coursename" />
+        <TextField fx:id="courseNameTF" layoutX="363.0" layoutY="54.0" prefWidth="200.0" promptText="enter the Coursename" />
+        <Label layoutX="216.0" layoutY="87.0" text="max. Participants" />
+        <TextField fx:id="maxParticipantsTF" layoutX="363.0" layoutY="81.0" prefWidth="200.0" />
+        <Button fx:id="saveBtn" layoutX="363.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save" />
+        <Button fx:id="resetBtn" layoutX="430.0" layoutY="121.0" mnemonicParsing="false" text="Reset" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
