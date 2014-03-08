@@ -1,12 +1,6 @@
-Part 4 of this JavaFX Tutorial.
+Up to now we have a little UI, which can create new Courses and
+put them into a ListView.
 
-In this video we want to get access to the Items in our ListView
-and display them in a Popup.
-
-This was not very difficult.. writing english while listening to german music is more difficult ;)
-
-Lets add a ContextMenu on this ListView and then stop the video..
-
-Okay, sorry for this little mistake, maybe so you'll learn to do nothing stupid ;)
-
-Tnx for watching.
+Coming up:
+- persist the Courses in a MySQL Database
+- edit the persisted Courses..
